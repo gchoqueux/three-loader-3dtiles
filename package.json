@@ -1,6 +1,6 @@
 {
   "name": "three-loader-3dtiles",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "description": "A 3D Tiles loader for Three.js",
   "main": "dist/three-loader-3dtiles.esm.js",
   "module": "dist/three-loader-3dtiles.esm.js",
@@ -38,15 +38,15 @@
     "not dead"
   ],
   "dependencies": {
-    "@loaders.gl/3d-tiles": "^3.1.4",
-    "@loaders.gl/polyfills": "^3.1.4",
-    "@loaders.gl/core": "^3.1.4",
+    "@loaders.gl/3d-tiles": "^3.4.4",
+    "@loaders.gl/polyfills": "^3.4.4",
+    "@loaders.gl/core": "^3.4.4",
     "jpeg-js": ">=0.4.0",
-    "@math.gl/core": "^3.5.6",
-    "@math.gl/culling": "^3.5.6"
+    "@math.gl/core": "^3.6.3",
+    "@math.gl/culling": "^3.6.3"
   },
   "peerDependencies": {
-    "three": "^0.137.0"
+    "three": "^0.146.0"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^7.13.16",
@@ -76,9 +76,9 @@
     "rollup": "^2.50.5",
     "rollup-plugin-node-externals": "^2.2.0",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "^0.34.1",
     "sinon": "^11.1.1",
-    "three": "^0.137.0",
+    "three": "^0.146.0",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2",
     "xmldom": "github:xmldom/xmldom#0.7.0"
